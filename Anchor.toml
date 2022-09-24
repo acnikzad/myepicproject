@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+myepicproject = "8XB5gtRYB8Y5Bs2s9F6mzsVBY6yTkaRs7sgLiL86E1Ex"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/arianikzad/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
